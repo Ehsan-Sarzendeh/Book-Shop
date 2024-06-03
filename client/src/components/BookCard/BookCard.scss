@@ -1,0 +1,21 @@
+@import '../../variables';
+@import '../../mixins';
+
+.card {
+  @include box-shadow;
+  @include border-radius;
+  margin-top: 20px;
+  transition: transform 0.3s;
+
+  &:hover {
+    transform: translateY(-5px) scale(1.01);
+  }
+
+  .card-img-top {
+    @include border-radius;
+  }
+
+  .card-text {
+    color: #666;
+  }
+}

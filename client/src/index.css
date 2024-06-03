@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Vazir;
+  src: url('../public/fonts/Vazir-Bold-FD-WOL.ttf') format('truetype');
+}
+
+body {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.en-font {
+  font-family: sans-serif !important;
+}

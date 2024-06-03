@@ -1,0 +1,45 @@
+@import '../../variables';
+@import '../../mixins';
+
+.form-inline {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.form-select {
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.search-input {
+    border-radius: 10px;
+    padding: 6px;
+    width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.book {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #fff;
+    transition: transform 0.3s;
+    @include box-shadow;
+    @include border-radius;
+
+    &:hover {
+      transform: translateY(-5px) scale(1.01);
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    p {
+      margin: 5px 0;
+      color: #666;
+    }
+}

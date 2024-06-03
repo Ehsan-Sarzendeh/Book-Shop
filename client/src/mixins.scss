@@ -1,0 +1,13 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+@mixin box-shadow {
+    box-shadow: $box-shadow;
+}  
+
+@mixin border-radius() {
+    border-radius: $border-radius;
+}
